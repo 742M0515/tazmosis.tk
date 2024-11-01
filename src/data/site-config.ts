@@ -65,10 +65,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Download Theme',
-            href: 'https://github.com/JustGoodUI/ovidius-astro-theme'
         }
     ],
     secondaryNavLinks: [
@@ -83,32 +79,28 @@ const siteConfig: SiteConfig = {
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Download Theme',
-            href: 'https://github.com/JustGoodUI/ovidius-astro-theme'
         }
     ],
     socialLinks: [
         {
-            text: 'Go to GitHub repo',
-            href: 'https://github.com/JustGoodUI/ovidius-astro-theme',
+            text: 'github',
+            href: 'https://github.com/742M0515',
             icon: 'github'
         },
         {
-            text: 'Follow on Instagram',
-            href: 'https://instagram.com/',
+            text: 'instagram',
+            href: 'https://instagram.com/tazmosis',
             icon: 'instagram'
         },
         {
-            text: 'Follow on X',
-            href: 'https://twitter.com/justgoodui',
+            text: 'twitter',
+            href: 'https://twitter.com/742M0515',
             icon: 'x-twitter'
         }
     ],
     hero: {
-        title: 'supcunce,',
-        text: "my name is tazmosis. but you can call me tip-top... coz i'm good on ya mum.",
+        title: 'supcunce.',
+        text: "my name is tazmosis, but you can call me tip-top... coz i'm good on ya mum.",
         avatar: {
             src: '/avatar.jpg',
             alt: 'tazmosis'
