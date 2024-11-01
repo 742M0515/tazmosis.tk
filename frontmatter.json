@@ -17,36 +17,37 @@
     }
   ],
   "frontMatter.taxonomy.contentTypes": [
-    {
-      "name": "default",
-      "pageBundle": false,
-      "previewPath": "'blog'",
-      "filePrefix": null,
-      "fields": [
-        {
-          "title": "Title",
-          "name": "title",
-          "type": "string",
-          "single": true
-        },
-        {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "Publishing date",
-          "name": "pubDate",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Content preview",
-          "name": "heroImage",
-          "type": "image",
-          "isPreviewImage": true
-        }
-      ]
-    }
-  ]
+  {
+    "name": "default",
+    "pageBundle": false,
+    "previewPath": "'blog'",
+    "filePrefix": null,
+    "fields": [
+      {
+        "title": "Title",
+        "name": "title",
+        "type": "string",
+        "single": true
+      },
+      {
+        "title": "Description",
+        "name": "description",
+        "type": "string"
+      },
+      {
+        "title": "Publishing date",
+        "name": "pubDate",
+        "type": "datetime",
+        "default": "{{now}}",
+        "isPublishDate": true
+      },
+      {
+        "title": "Content preview",
+        "name": "heroImage",
+        "type": "image",
+        "isPreviewImage": true
+      }
+    ]
+  }
+]
+}
