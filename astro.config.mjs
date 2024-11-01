@@ -5,7 +5,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://ovidius-astro-theme.netlify.app',
+    site: 'https://tazmosis.netlify.app',
     integrations: [
         mdx(),
         sitemap(),

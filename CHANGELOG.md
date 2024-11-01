@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "Ovidius" theme will be documented in this file.
+All notable changes to the theme will be documented in this file.
 
 ## 0.0.2
 

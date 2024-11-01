@@ -1,5 +1,5 @@
 {
-    "name": "ovidius-astro-theme",
+    "name": "tazmosis-theme",
     "type": "module",
     "version": "0.0.2",
     "scripts": {
@@ -14,12 +14,17 @@
         "@astrojs/rss": "^4.0.9",
         "@astrojs/sitemap": "^3.2.1",
         "@astrojs/tailwind": "^5.1.2",
-        "astro": "^4.16.7",
+        "astro": "^4.16.8",
         "tailwindcss": "^3.4.14"
     },
     "devDependencies": {
         "@tailwindcss/typography": "^0.5.15",
         "prettier": "^3.3.3",
         "prettier-plugin-tailwindcss": "^0.6.8"
-    }
+    },
+    "description": "tazmosis.tk astro.js theme.",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
