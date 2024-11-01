@@ -41,14 +41,11 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     logo: {
         src: '/logo.svg',
-        alt: 'Ovidius logo'
+        alt: 'tazmosis.tk logo'
     },
-    title: 'Ovidius',
-    description: 'Astro.js and Tailwind CSS theme for blogging by justgoodui.com',
-    image: {
-        src: '/ovidius-preview.jpg',
-        alt: 'Ovidius - Astro.js and Tailwind CSS theme'
-    },
+    title: 'tazmosis.tk',
+    description: 'just a cunt and some code...',
+
     primaryNavLinks: [
         {
             text: 'Home',
