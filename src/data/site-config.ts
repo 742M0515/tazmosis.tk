@@ -107,22 +107,16 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi there!',
-        text: "My name is Justin Case. I'm a freelance front-end developer, author and speaker based in Austin, TX. It's nice to meet you.",
+        title: 'supcunce,',
+        text: "my name is tazmosis. but you can call me tip-top... coz i'm good on ya mum.",
         avatar: {
             src: '/avatar.jpg',
-            alt: 'Justin Case'
+            alt: 'tazmosis'
         },
         backgroundImage: {
             src: '/hero.webp'
         }
-    },
-    subscribe: {
-        title: 'Subscribe to Ovidius Newsletter',
-        text: 'One update per week. All the latest news directly in your inbox.',
-        formUrl: 'https://justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117&amp;f_id=005c48e2f0'
-    },
-    postsPerPage: 5
+    }
 };
 
 export default siteConfig;
