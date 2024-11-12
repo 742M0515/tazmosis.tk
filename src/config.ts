@@ -6,7 +6,7 @@ export const SITE: Site = {
   desc: "just a cunt and some code.",
   title: "tazmosis.tk",
   ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: true,
+  lightAndDarkMode: false,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
