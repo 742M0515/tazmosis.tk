@@ -34,7 +34,7 @@ export const SOCIALS: SocialObjects = [
     name: "Facebook",
     href: "https://facebook.com/*****",
     linkTitle: `${SITE.author} on Facebook`,
-    active: falsr,
+    active: false,
   },
   {
     name: "Instagram",
