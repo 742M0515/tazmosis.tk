@@ -1,7 +1,12 @@
 ---
-import Layout from "../layouts/Layout.astro"
-
-import Card from "../components/Card.astro"
+import { getCollection } from "astro:content";
+import { SITE } from "@config";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import SearchBar from "@components/Search";
+import getSortedPosts from "@utils/getSortedPosts";
 ---
 
 <Layout title="Ruta de los Nevados: Murillo Adventure">
