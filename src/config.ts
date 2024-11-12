@@ -17,8 +17,8 @@ export const LOCALE = {
 } as const;
 
 export const LOGO_IMAGE = {
-  enable: false,
-  svg: true,
+  enable: true,
+  svg: false,
   width: 216,
   height: 46,
 };
@@ -32,7 +32,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://facebook.com/*****",
     linkTitle: `${SITE.author} on Facebook`,
     active: falsr,
   },
@@ -44,7 +44,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://linkedin.com/*****",
     linkTitle: `${SITE.author} on LinkedIn`,
     active: false,
   },
@@ -57,31 +57,31 @@ export const SOCIALS: SocialObjects = [
   {
     name: "Twitter",
     href: "https://twitter.com/742M0515",
-    linkTitle: `${SITE.title} on Twitter`,
+    linkTitle: `${SITE.author} on Twitter`,
     active: true,
   },
   {
     name: "Twitch",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Twitch`,
+    href: "https://twitch.com/*****",
+    linkTitle: `${SITE.author} on Twitch`,
     active: false,
   },
   {
     name: "YouTube",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on YouTube`,
+    href: "https://youtube.com/*****",
+    linkTitle: `${SITE.author} on YouTube`,
     active: false,
   },
   {
     name: "WhatsApp",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on WhatsApp`,
+    href: "https://whatsapp.com/*****",
+    linkTitle: `${SITE.author} on WhatsApp`,
     active: false,
   },
   {
     name: "Snapchat",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Snapchat`,
+    href: "https://snapchat.com/*****",
+    linkTitle: `${SITE.author} on Snapchat`,
     active: false,
   },
   {
@@ -134,9 +134,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Telegram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Telegram`,
-    active: false,
+    href: "https://t.me/tazmosis",
+    linkTitle: `${SITE.author} on Telegram`,
+    active: true,
   },
   {
     name: "Mastodon",
