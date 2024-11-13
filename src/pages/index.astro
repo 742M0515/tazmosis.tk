@@ -1,35 +1,25 @@
 ---
-import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
-import LinkButton from "@components/LinkButton.astro";
-import Hr from "@components/Hr.astro";
-import Card from "@components/Card";
-import Socials from "@components/Socials.astro";
-import getSortedPosts from "@utils/getSortedPosts";
-import { SOCIALS } from "@config";
-
-const posts = await getCollection("blog");
-
-const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
-const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
-
-const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
 <Layout>
   <Header />
   <main id="main-content">
     <section id="hero">
- <img src="/assets/avatar.jpg" alt="tazmosis" width="100" class="center">
-</section>
-<section>
-        <!-- Starts compoent -->
-        <div
-          class="w-full justify-center"
-          x-data="{
+      <img
+        src="/assets/avatar.jpg"
+        alt="tazmosis"
+        width="50px"
+        class="center"
+      />
+    </section>
+    <section>
+      <!-- Starts compoent -->
+      <div
+        class="w-full justify-center"
+        x-data="{
   endDate: new Date('2025-10-11T00:00:00').getTime(),
   remainingTime: 0,
   formatTime(time) {
@@ -40,63 +30,66 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     return { days, hours, minutes, seconds };
   }
 }"
-          x-init="() => {
+        x-init="() => {
   setInterval(() => {
     const now = new Date().getTime();
     const remainingTime = endDate - now;
     $data.remainingTime = remainingTime > 0 ? remainingTime : 0;
   }, 1000);
-}">
-          <template x-if="remainingTime > 0">
-            <div class="gap-4 text-center w-full flex mx-auto justify-between">
-              <div w-full>
-                <div
-                  class="text-3xl font-medium text-gray-500"
-                  x-text="formatTime(remainingTime).days">
-                </div>
-                <div class="text-sm text-orange-500">Days</div>
+}"
+      >
+        <template x-if="remainingTime > 0">
+          <div class="mx-auto flex w-full justify-between gap-4 text-center">
+            <div w-full>
+              <div
+                class="text-3xl font-medium text-gray-500"
+                x-text="formatTime(remainingTime).days"
+              >
               </div>
-              <div w-full>
-                <div
-                  class="text-3xl font-medium text-gray-500"
-                  x-text="formatTime(remainingTime).hours">
-                </div>
-                <div class="text-sm text-orange-500">Hours</div>
+              <div class="text-sm text-pink-500">Days</div>
+            </div>
+            <div w-full>
+              <div
+                class="text-3xl font-medium text-gray-500"
+                x-text="formatTime(remainingTime).hours"
+              >
               </div>
-              <div w-full>
-                <div
-                  class="text-3xl font-medium text-gray-500"
-                  x-text="formatTime(remainingTime).minutes">
-                </div>
-                <div class="text-sm text-orange-500">Minutes</div>
+              <div class="text-sm text-pink-500">Hours</div>
+            </div>
+            <div w-full>
+              <div
+                class="text-3xl font-medium text-gray-500"
+                x-text="formatTime(remainingTime).minutes"
+              >
               </div>
-              <div w-full>
-                <div
-                  class="text-3xl font-medium text-gray-500"
-                  x-text="formatTime(remainingTime).seconds">
-                </div>
-                <div class="text-sm text-orange-500">Seconds</div>
-</div>
+              <div class="text-sm text-pink-500">Minutes</div>
             </div>
-          </template>
-          <template x-if="remainingTime <= 0">
-            <div class="text-center">
-              <div class="text-xl font-bold">Countdown has ended!</div>
+            <div w-full>
+              <div
+                class="text-3xl font-medium text-gray-500"
+                x-text="formatTime(remainingTime).seconds"
+              >
+              </div>
+              <div class="text-sm text-pink-500">Seconds</div>
             </div>
-          </template>
-<div class="text-center">
-              <div class="text-xl">#HBLD</div>
-            </div>
+          </div>
+        </template>
+        <template x-if="remainingTime <= 0">
+          <div class="text-center">
+            <div class="text-xl font-bold">x</div>
+          </div>
+        </template>
+        <div class="text-center">
+          <div class="text-xl">#HBLD</div>
         </div>
-
-        <!-- Ends compoent -->
       </div>
-    </div>
-  </section>
-  </main>
 
-  <Footer />
+      <!-- Ends compoent -->
+    </section>
+  </main>
 </Layout>
+
+<Footer />
 
 <style>
   /* ===== Hero Section ===== */
@@ -106,12 +99,12 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   #hero h1 {
     @apply my-4 text-3xl font-bold sm:my-8 sm:text-5xl;
   }
-#hero .center {
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+  #hero .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
   #hero .rss-link {
     @apply mb-6;
   }
@@ -127,3 +120,4 @@ display: block;
   .social-links {
     @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
   }
+</style>
