@@ -133,3 +133,31 @@ html[data-theme="dark"] {
     @apply outline-2 outline-offset-1 outline-skin-fill focus-visible:no-underline focus-visible:outline-dashed;
   }
 }
+  /* ===== Hero Section ===== */
+#hero {
+  @apply pb-6 pt-8;
+}
+#hero h1 {
+  @apply my-4 text-3xl font-bold sm:my-8 sm:text-5xl;
+}
+#hero .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#hero .rss-link {
+  @apply mb-6;
+}
+#hero .rss-icon {
+  @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
+}
+#hero p {
+  @apply my-2;
+}
+.social-wrapper {
+  @apply mt-4 flex flex-col sm:flex-row sm:items-center;
+}
+.social-links {
+  @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
+}

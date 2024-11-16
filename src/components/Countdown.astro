@@ -1,0 +1,70 @@
+---
+
+---
+
+<div
+  class="w-full justify-center"
+  x-data="{
+endDate: new Date('2025-10-11T00:00:00').getTime(),
+remainingTime: 0,
+formatTime(time) {
+const days = Math.floor(time / (1000 * 60 * 60 * 24));
+const hours = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+const minutes = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
+const seconds = Math.floor((time % (1000 * 60)) / 1000);
+return { days, hours, minutes, seconds };
+}
+}"
+  x-init="() => {
+setInterval(() => {
+const now = new Date().getTime();
+const remainingTime = endDate - now;
+$data.remainingTime = remainingTime > 0 ? remainingTime : 0;
+}, 1000);
+}"
+>
+  <template x-if="remainingTime > 0">
+    <div class="mx-auto flex w-full justify-between gap-4 text-center">
+      <div w-full>
+        <div
+          class="text-3xl font-medium text-gray-500"
+          x-text="formatTime(remainingTime).days"
+        >
+        </div>
+        <div class="text-sm text-pink-500">Days</div>
+      </div>
+      <div w-full>
+        <div
+          class="text-3xl font-medium text-gray-500"
+          x-text="formatTime(remainingTime).hours"
+        >
+        </div>
+        <div class="text-sm text-pink-500">Hours</div>
+      </div>
+      <div w-full>
+        <div
+          class="text-3xl font-medium text-gray-500"
+          x-text="formatTime(remainingTime).minutes"
+        >
+        </div>
+        <div class="text-sm text-pink-500">Minutes</div>
+      </div>
+      <div w-full>
+        <div
+          class="text-3xl font-medium text-gray-500"
+          x-text="formatTime(remainingTime).seconds"
+        >
+        </div>
+        <div class="text-sm text-pink-500">Seconds</div>
+      </div>
+    </div>
+  </template>
+  <template x-if="remainingTime <= 0">
+    <div class="text-center">
+      <div class="text-xl font-bold">x</div>
+    </div>
+  </template>
+  <div class="text-center">
+    <div class="text-xl">#HBLD</div>
+  </div>
+</div>
