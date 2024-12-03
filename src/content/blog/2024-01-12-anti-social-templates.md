@@ -1,24 +1,17 @@
 ---
-id: 27002
-title: "anti-social templates"
-date: "2024-01-12T16:02:20+10:00"
-author: tazmosis@gmx.com
-excerpt: "pimp ur socials."
-layout: post
-guid: "https://tazmosis.tk/?p=27002"
-permalink: /anti-social-templates/
-categories:
-  - blog
+title: anti-social templates
+pubDate: 12/01/2024 08:13
+author: "tazmosis"
 tags:
-  - anti-social
   - facebook
   - pinterest
   - snapchat
-  - "social media"
-  - "tik tok"
+  - social media
+  - tik tok
   - twitter
-  - "web design"
-format: image
+imgUrl: "../../assets/astro.jpeg"
+description: optimal stuff for your things.
+layout: "../../layouts/BlogPost.astro"
 ---
 
 tiktok

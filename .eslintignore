@@ -1,4 +1,4 @@
-.husky
+npm i.husky
 .vscode
 node_modules
 public

@@ -1,8 +1,15 @@
 ---
 title: restore windows backups
-excerpt: "workaround for restoring backups of deceased windows systems"
-layout: post
-permalink: /restore-windows-backups/
+pubDate: 04/09/2024 16:20
+author: "tazmosis"
+tags:
+  - windows
+  - data
+  - recovery
+  - restore
+imgUrl: "../../assets/astro.jpeg"
+description: workaround for restoring backups of deceased windows systems.
+layout: "../../layouts/BlogPost.astro"
 ---
 
 I found the following suggestion posted elsewhere by "TECHCANDY". It solved my problem.

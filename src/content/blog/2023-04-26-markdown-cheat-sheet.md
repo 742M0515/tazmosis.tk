@@ -1,8 +1,15 @@
 ---
-title: markdown cheat sheet
-excerpt: "markdown cheat sheet"
-layout: post
-permalink: /markdown-cheat-sheet/
+title: markdown cheatsheet.
+pubDate: 26/04/2023 14:25
+author: "tazmosis"
+tags:
+  - markdown
+  - cheatsheet
+  - blog
+  - language
+imgUrl: "../../assets/astro.jpeg"
+description: fuck markdown. fuck it in it's stupid arse.
+layout: "../../layouts/BlogPost.astro"
 ---
 
 # Markdown Cheat Sheet

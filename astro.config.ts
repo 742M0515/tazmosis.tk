@@ -1,16 +1,17 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
+import sitemap from "@astrojs/sitemap";
 import fulldev from "fulldev-ui/integration";
 import react from "@astrojs/react";
 import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
-import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
   integrations: [
+    sitemap(),
     fulldev({
       css: "/src/styles/base.css",
       colors: {

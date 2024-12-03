@@ -1,8 +1,15 @@
 ---
-title: jekyll theme switch
-excerpt: "efficiently fuck with this page"
-layout: post
-permalink: /jekyll-theme-switch/
+title: switch jekyll themes the smart way
+pubDate: 05/09/2024 04:20
+author: "tazmosis"
+tags:
+  - jekyll
+  - ssg
+  - mods
+  - optimal
+imgUrl: "../../assets/astro.jpeg"
+description: work smarter not harder.
+layout: "../../layouts/BlogPost.astro"
 ---
 
 original post: [Daniel A.A. Pelsmaeker](https://stackoverflow.com/users/146622/daniel-a-a-pelsmaeker) on [stackoverflow.com](https://stackoverflow.com/a/37186333/10015616)

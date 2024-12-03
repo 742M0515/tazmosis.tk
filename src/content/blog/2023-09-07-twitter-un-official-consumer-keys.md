@@ -1,11 +1,13 @@
 ---
-title: "twitter un/official consumer keys"
-excerpt: "twitter consumer keys to revive twidere"
-layout: post
-permalink: /twitter-un-official-consumer-keys/
+title: twitter un/official consumer keys
+pubDate: 07/09/2023 14:25
+author: "tazmosis"
 tags:
   - twidere
   - twitter
+imgUrl: "../../assets/astro.jpeg"
+description: twitter consumer keys to revive twidere.
+layout: "../../layouts/BlogPost.astro"
 ---
 
 # [](https://web.archive.org/web/20230226052239/https://gist.github.com/shobotch/5160017#twitter-official-consumer-key)Twitter Official Consumer Key

@@ -1,21 +1,15 @@
 ---
-id: 26139
-title: cheap pogo coins
-date: "2023-08-25T16:52:00+10:00"
-author: tazmosis@gmx.com
-layout: post
-guid: "https://tazmosis.tk/?p=26139"
-permalink: /cheap-pogo-coins/
-footnotes:
-  - ""
-image: /wp-content/upl
-categories:
-  - blog
+title: pogo coins
+pubDate: 25/08/2023 13:25
+author: "tazmosis"
 tags:
+  - pkmn
+  - pogo
   - coins
   - exploit
-  - pogo
-excerpt: turkish play store
+imgUrl: "../../assets/astro.jpeg"
+description: turkish play store.
+layout: "../../layouts/BlogPost.astro"
 ---
 
 10,000 pokecoins for 16 USD  
