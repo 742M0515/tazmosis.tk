@@ -1,0 +1,26 @@
+---
+import { Image } from "astro:assets";
+// example local image
+import Title from "@assets/logo.png";
+---
+
+<div class="logo" <Image alt="tazmosis" src={Title}></div>
+
+<style>
+  /* Make images easier to work with */
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+  }
+</style>

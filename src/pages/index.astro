@@ -1,21 +1,19 @@
 ---
-import Layout from "@layouts/Layout.astro";
-import Header from "@components/Header.astro";
-import Footer from "@components/Footer.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
 import Countdown from "@components/Countdown.astro";
-import Hero from "@components/Hero.astro";
+import { Image } from "astro:assets";
+// example local image
+import Logo from "@assets/logo.png";
+import Avatar from "@assets/avatar.png";
+const pageTitle = "Home Page";
 ---
 
-<Layout>
-  <Header />
-  <main id="main-content">
-    <section id="hero">
-      <Hero />
-    </section>
-    <section id="countdown">
-      <Countdown />
-    </section>
-  </main>
-</Layout>
+<BaseLayout>
+  <div class="logo">
+    <Image alt="tazmosis" src={Logo} />
+  </div>
 
-<Footer />
+  <div class="hbld">
+    <Countdown />
+  </div>
+</BaseLayout>

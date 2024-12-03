@@ -1,0 +1,25 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+// example local image
+import Avatar from "@assets/avatar.png";
+
+const pageTitle = "About Me";
+---
+
+<BaseLayout>
+  <div class="about">
+    <div class="avatar"><Image alt="tazmosis" src={Avatar} /></div>
+    <p align="center" padding-top="10px">
+      <br />
+      supcunce.<br />
+      <br />
+      i'm tazmosis<br />
+      <br />
+      but you can call me tip-top,<br />
+      coz i'm good on ya mum!<br />
+      <br />
+      🤣🤣🤣<br /><br />
+    </p>
+  </div>
+</BaseLayout>

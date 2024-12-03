@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "tazmosis.tk",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: false,
-  postPerPage: 3,
+  postPerPage: 5,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
@@ -17,7 +17,7 @@ export const LOCALE = {
 } as const;
 
 export const LOGO_IMAGE = {
-  enable: true,
+  enable: false,
   svg: false,
   width: 216,
   height: 46,

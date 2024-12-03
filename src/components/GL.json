@@ -1,0 +1,107 @@
+[
+  {
+    "Lead": "Azuymarill B/IB/PR",
+    "Switch": "Dewgong IS/DR/IW",
+    "Closer": "Sandslash (Alolan) PS/DR/IP"
+  },
+  {
+    "Lead": "Azumarill B/IB/PR",
+    "Switch": "Clodsire PSt/Eq/SE",
+    "Closer": "Drapion (Shadow) PSt/AT/Cr"
+  },
+  {
+    "Lead": "Jumpluff FW/AA/EB",
+    "Switch": "Clodsire PSt/Eq/SE",
+    "Closer": "Gastrodon MSl/BS/EP"
+  },
+  {
+    "Lead": "Ariados PSt/Lu/TBl",
+    "Switch": "Azumarill B/IB/PR",
+    "Closer": "Feraligatr (Shadow) SC/HC/IB"
+  },
+  {
+    "Lead": "Serperior VW/AA/FP",
+    "Switch": "Clodsire PSt/Eq/SE",
+    "Closer": "Dunsparce RO/DR/RS"
+  },
+  {
+    "Lead": "Clodsire PSt/Eq/SlB",
+    "Switch": "Feraligatr (Shadow) SC/HC/IB",
+    "Closer": "Mandibuzz Sn/AA/DP"
+  },
+  {
+    "Lead": "Clodsire PSt/Eq/SlB",
+    "Switch": "Feraligatr (Shadow) SC/HC/IB",
+    "Closer": "Jumpluff (Shadow) FW/AA/EB"
+  },
+  {
+    "Lead": "Pangoro KC/CC/NS",
+    "Switch": "Clodsire PSt/Eq/SlB",
+    "Closer": "Talonflame I/BrB/Fl"
+  },
+  {
+    "Lead": "Greninja WSh/HC/NS",
+    "Switch": "Clodsire PSt/Eq/SE",
+    "Closer": "Mandibuzz Sn/AA/DP"
+  },
+  {
+    "Lead": "Clodsire PSt/Eq/SE",
+    "Switch": "Diggersby QA/FiP/ScS",
+    "Closer": "Feraligatr (Shadow) SC/HC/IB"
+  },
+  {
+    "Lead": "Mandibuzz Sn/AA/DP",
+    "Switch": "Azumarill B/IB/PR",
+    "Closer": "Dunsparce RO/DR/RS"
+  },
+  {
+    "Lead": "Ariados PSt/Lu/TBl",
+    "Switch": "Azumarill B/IB/PR",
+    "Closer": "Carbink RTh/M/PG"
+  },
+  {
+    "Lead": "Gastrodon MSl/BS/EP",
+    "Switch": "Mandibuzz Sn/AA/DP",
+    "Closer": "Sandslash (Alolan) PS/DR/IP"
+  },
+  {
+    "Lead": "Mandibuzz Sn/AA/DP",
+    "Switch": "Clodsire PSt/Eq/SE",
+    "Closer": "Quagsire (Shadow) MS/AT/SE"
+  },
+  {
+    "Lead": "Sableye SC/FoP/Re",
+    "Switch": "Diggersby QA/HB/ScS",
+    "Closer": "Dunsparce RO/DR/RS"
+  },
+  {
+    "Lead": "Wigglytuff Ch/IW/Sw",
+    "Switch": "Gastrodon MSl/BS/EP",
+    "Closer": "Mandibuzz Sn/AA/DP"
+  },
+  {
+    "Lead": "Jumpluff FW/AA/EB",
+    "Switch": "Dunsparce RO/DR/RS",
+    "Closer": "Feraligatr SC/HC/IB"
+  },
+  {
+    "Lead": "Gastrodon MSl/BS/EP",
+    "Switch": "Carbink RTh/M/RS",
+    "Closer": "Mandibuzz Sn/AA/DP"
+  },
+  {
+    "Lead": "Toxapex PJ/Bri/SW",
+    "Switch": "Diggersby QA/FiP/ScS",
+    "Closer": "Pangoro KC/CC/NS"
+  },
+  {
+    "Lead": "Jumpluff FW/AA/EB",
+    "Switch": "Diggersby QA/HB/ScS",
+    "Closer": "Lickilicky RO/BS/SB"
+  },
+  {
+    "Lead": "Clodsire PSt/Eq/SE",
+    "Switch": "Feraligatr SC/HC/IB",
+    "Closer": "Mandibuzz Sn/AA/DP"
+  }
+]
