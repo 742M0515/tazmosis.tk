@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
-import Layout from "@layouts/Default.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
 import BlogList from "@components/blog/BlogList.astro";
 import { Button } from "@eliancodes/brutal-ui";
 
@@ -39,7 +39,7 @@ interface Props {
 const { tag, blogposts } = Astro.props;
 ---
 
-<Layout
+<BaseLayout
   title={`Blog: ${tag}`}
   description={`Brutal Blog | All posts tagged with ${tag}`}
   pageTitle={`Brutal Blog | Blogposts tagged with ${tag}`}
@@ -50,4 +50,4 @@ const { tag, blogposts } = Astro.props;
     </div>
     <BlogList posts={blogposts} />
   </main>
-</Layout>
+</BaseLayout>
