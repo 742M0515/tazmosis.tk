@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import Layout from "@layouts/BaseLayout.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
 import BlogList from "@components/blog/BlogList.astro";
 
 const posts = await getCollection("blog").then(collection =>
@@ -8,7 +8,7 @@ const posts = await getCollection("blog").then(collection =>
 );
 ---
 
-<Layout
+<BaseLayout
   title="Blog"
   description="Brutal Blog | On this page you can find a collection of blogposts"
   pageTitle="Brutal Blog"
@@ -16,4 +16,4 @@ const posts = await getCollection("blog").then(collection =>
   <main class="bg-green p-6">
     <BlogList posts={posts} />
   </main>
-</Layout>
+</BaseLayout>
