@@ -17,8 +17,6 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.4.1",
-    "@astrojs/rss": "^4.0.2",
-    "@resvg/resvg-js": "^2.6.0",
     "@astrojs/sitemap": "^3.2.1",
     "@eliancodes/brutal-ui": "^0.2.3",
     "astro": "^4.2.1",
